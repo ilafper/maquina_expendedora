@@ -1,0 +1,7 @@
+maquina xpendedora
+
+lista de productos en formato fila columna
+
+modo admin: ver la cantidad del stock de los productos, total ganado, reponer.
+
+
