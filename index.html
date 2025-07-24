@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
 </head>
 
 <body>
@@ -65,7 +67,7 @@
 
         </section>
         <section class="derecha">
-            <h4>INSERTE SU NUMERO</h4>
+            <h4 class="titi">INSERTE SU NUMERO </h4>
             <input type="text" id="pantalla" placeholder="Ej: B2">
 
             <div class="teclado">
@@ -82,13 +84,22 @@
                 <!-- Controles -->
                 <button class="tecla control borrar">←</button>
                 <button class="tecla control limpiar">C</button>
+                <button class="bi bi-eye ver"></button>
+                <a class="admin" href="admin.html"> <img src="/tartita.png" alt=""></a>
+
+
                 
             </div>
-            <button class="enter">ENTER</button>
-
+            <section class="dinero">
+                <input class="cash" type="number">
+                <button class="pagar">Pagar</button>
+            </section>
+            
         </section>
 
     </section>
+    
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="app.js"></script>
 </body>

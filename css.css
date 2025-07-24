@@ -1,6 +1,5 @@
 body {
     font-family: 'Chewy', cursive;
-
     background-image: url("fondo.jpg");
     background-repeat: no-repeat;       
     background-size: cover;             
@@ -31,7 +30,7 @@ body {
 h2 {
     text-align: center;
     color: #6a4c93;
-    text-shadow: 1px 10px 2px #e9d8fd;
+    text-shadow: 1px 10px 2px #e7bfe7;
 }
 
 .todo {
@@ -101,6 +100,14 @@ h2 {
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+.cash {
+    width: 100px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #7d3c98;
+    border-radius: 10px;
+}
 
 #pantalla {
     width: 50%;
@@ -118,8 +125,16 @@ h2 {
     gap: 12px;
     justify-content: center;
 }
+.dinero {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    gap: 10px;
+}
 
-.tecla, .enter {
+.tecla, .enter, .pagar, .ver {
     padding: 12px;
     font-size: 18px;
     border: 3px solid #7d3c98;
@@ -128,12 +143,15 @@ h2 {
     color: #7000d8;
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(106, 76, 147, 0.2);
-    transition: background-color 0.2s, transform 0.1s;
 }
 .enter{
     width: 100px;
 }
 .tecla:hover {
+    background-color: #cba2ff;
+    transform: scale(1.05);
+}
+.ver:hover {
     background-color: #cba2ff;
     transform: scale(1.05);
 }
@@ -144,4 +162,10 @@ h2 {
 
 .control:hover {
     background-color: #d1a7fa;
+}
+
+
+
+.admin img{
+    width: 50px;
 }
